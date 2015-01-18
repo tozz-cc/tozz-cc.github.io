@@ -15,7 +15,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.5 r10040"
-   sodipodi:docname="New document 1">
+   sodipodi:docname="test.svg">
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -24,8 +24,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.35"
-     inkscape:cx="375"
-     inkscape:cy="520"
+     inkscape:cx="1520.7143"
+     inkscape:cy="537.14286"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -44,49 +44,63 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <g
-     id="layer1"
+     inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     inkscape:label="Layer 1">
+     id="layer1">
+	  	 <foreignObject width="560" height="349">
+		<iframe xmlns="http://www.w3.org/1999/xhtml"
+		width="560" height="349"
+		
+		src="http://www.youtube.com/embed/iR6oYX1D-0w"
+		frameborder="0"></iframe>
+	</foreignObject>
     <rect
-       y="35.219334"
-       x="-985.71423"
-       height="251.42857"
-       width="248.57143"
+       style="opacity:0.4875;fill:#3f5897;fill-opacity:1;stroke:none"
        id="rect2985"
-       style="opacity:0.4875;fill:#3f5897;fill-opacity:1;stroke:none" />
+       width="248.57143"
+       height="251.42857"
+       x="-985.71423"
+       y="35.219334" />
     <path
-       transform="matrix(1.4425323,0,0,1.4425323,538.7602,-222.1464)"
-       d="m 137.14286,256.64789 a 121.42857,115.71429 0 1 1 -242.85715,0 121.42857,115.71429 0 1 1 242.85715,0 z"
-       sodipodi:ry="115.71429"
-       sodipodi:rx="121.42857"
-       sodipodi:cy="256.64789"
-       sodipodi:cx="15.714286"
-       id="path2987"
+       sodipodi:type="arc"
        style="opacity:0.48749999999999999;fill:#de8787;fill-opacity:1;stroke:none"
-       sodipodi:type="arc" />
+       id="path2987"
+       sodipodi:cx="15.714286"
+       sodipodi:cy="256.64789"
+       sodipodi:rx="121.42857"
+       sodipodi:ry="115.71429"
+       d="m 137.14286,256.64789 a 121.42857,115.71429 0 1 1 -242.85715,0 121.42857,115.71429 0 1 1 242.85715,0 z"
+       transform="matrix(1.4425323,0,0,1.4425323,538.7602,-222.1464)" />
+    <rect
+       style="opacity:0.4875;fill:none;stroke:#000000"
+       id="rect2989"
+       width="1280"
+       height="800"
+       x="-1511.4286"
+       y="-236.20924" />
     <rect
        y="-236.20924"
-       x="-1511.4286"
+       x="-82.857162"
        height="800"
        width="1280"
-       id="rect2989"
+       id="rect2991"
        style="opacity:0.4875;fill:none;stroke:#000000" />
     <rect
        style="opacity:0.4875;fill:none;stroke:#000000"
-       id="rect2991"
+       id="rect3035"
        width="1280"
        height="800"
-       x="-82.857162"
-       y="-236.20924" />
+       x="1325.7142"
+       y="-247.63782" />
   </g>
-  <script
-     ns1:version="13.11-30213629"
-     id="sozi-script">/*
+   <script
+     id="sozi-script"
+     ns1:version="13.11-30213629">/*
  * Sozi - A presentation tool using the SVG standard
  *
  * Copyright (C) 2010-2013 Guillaume Savaton
@@ -2785,8 +2799,8 @@ namespace(this, &quot;sozi.player&quot;, function (exports, window) {
 */
 </script>
   <style
-     ns1:version="13.11-30213629"
-     id="sozi-style">/*
+     id="sozi-style"
+     ns1:version="13.11-30213629">/*
  * Sozi - A presentation tool using the SVG standard
  *
  * Copyright (C) 2010-2013 Guillaume Savaton
@@ -2832,24 +2846,38 @@ namespace(this, &quot;sozi.player&quot;, function (exports, window) {
    fill: #0cf;
 }
 
-#sozi-framenumber circle {
+<!-- #sozi-framenumber circle {
    stroke: #222;
    stroke-opacity: 0.1;
    stroke-width: 4;
    fill: #222;
    fill-opacity: 0.9;
-}
+} -->
 
-#sozi-framenumber text {
+<!-- #sozi-framenumber text {
    fill: #eff;
    font-family: Verdana, sans-serif;
    font-size: 12pt;
-}
+} -->
 </style>
   <ns1:frame
-     ns1:refid="rect2989"
-     ns1:title="1"
+     id="frame5620"
+     ns1:transition-path-hide="true"
+     ns1:transition-profile="linear"
+     ns1:transition-zoom-percent="0.0"
+     ns1:transition-duration-ms="1000.0"
+     ns1:timeout-ms="5000.0"
+     ns1:timeout-enable="false"
+     ns1:show-in-frame-list="true"
+     ns1:clip="true"
+     ns1:hide="true"
      ns1:sequence="1"
+     ns1:title="1"
+     ns1:refid="rect2989" />
+  <ns1:frame
+     ns1:refid="rect2991"
+     ns1:title="2"
+     ns1:sequence="2"
      ns1:hide="true"
      ns1:clip="true"
      ns1:show-in-frame-list="true"
@@ -2859,19 +2887,142 @@ namespace(this, &quot;sozi.player&quot;, function (exports, window) {
      ns1:transition-zoom-percent="0.0"
      ns1:transition-profile="linear"
      ns1:transition-path-hide="true"
-     id="frame5620" />
+     id="frame5638" />
+  <script
+     ns1:version="13.11-30213629"
+     id="sozi-extras-media-script">/*
+ * Sozi - A presentation tool using the SVG standard
+ *
+ * Copyright (C) 2010-2013 Guillaume Savaton
+ *
+ * This program is dual licensed under the terms of the MIT license
+ * or the GNU General Public License (GPL) version 3.
+ * A copy of both licenses is provided in the doc/ folder of the
+ * official release of Sozi.
+ * 
+ * See http://sozi.baierouge.fr/wiki/en:license for details.
+ */
+
+this.addEventListener(&quot;load&quot;, function () {
+	var	svgNs = &quot;http://www.w3.org/2000/svg&quot;,
+	    soziNs = &quot;http://sozi.baierouge.fr&quot;,
+		xhtmlNs = &quot;http://www.w3.org/1999/xhtml&quot;,
+		window = this,
+		document = window.document,
+		mediaSources = [],
+		mediaList, i, j, k, rect, foreignObject,
+		html, htmlMedia, htmlSource;
+	
+    function clickHandler(evt) {
+        evt.stopPropagation();
+    }
+    
+    function registerFrameChangeHandler(htmlMedia, startFrame, stopFrame) {
+        sozi.events.listen(&quot;sozi.player.framechange&quot;, function(index) {
+            var frameId = sozi.document.frames[index].id;
+		    if (frameId === startFrame) {
+		        htmlMedia.play();
+			}
+            else if (frameId === stopFrame) {
+                htmlMedia.pause();
+            }
+		});
+    }
+    
+	mediaSources.push(document.getElementsByTagNameNS(soziNs, &quot;video&quot;));
+	mediaSources.push(document.getElementsByTagNameNS(soziNs, &quot;audio&quot;));
+
+	mediaList = [];
+	for (k = 0; k &lt; mediaSources.length; k += 1) {
+	    for (i = 0; i &lt; mediaSources[k].length; i += 1) {
+		    rect = mediaSources[k][i].parentNode;
+	
+		    // Create HTML media source element
+		    htmlSource = document.createElementNS(xhtmlNs, &quot;source&quot;);
+		    htmlSource.setAttribute(&quot;type&quot;, mediaSources[k][i].getAttributeNS(soziNs, &quot;type&quot;));
+		    htmlSource.setAttribute(&quot;src&quot;, mediaSources[k][i].getAttributeNS(soziNs, &quot;src&quot;));
+
+		    for (j = 0; j &lt; mediaList.length; j += 1) {
+			    if (mediaList[j].rect === rect) {
+				    break;
+			    }
+		    }
+	
+		    if (j === mediaList.length) {
+		        rect.setAttribute(&quot;visibility&quot;, &quot;hidden&quot;);
+		        
+			    // Create HTML media element
+			    htmlMedia = document.createElementNS(xhtmlNs, mediaSources[k][i].localName);
+			    htmlMedia.setAttribute(&quot;controls&quot;, &quot;controls&quot;);
+			    if (mediaSources[k][i].localName === &quot;video&quot;) {
+			        htmlMedia.setAttribute(&quot;width&quot;, rect.getAttribute(&quot;width&quot;));
+			        htmlMedia.setAttribute(&quot;height&quot;, rect.getAttribute(&quot;height&quot;));
+			    }
+		        htmlMedia.addEventListener(&quot;click&quot;, clickHandler, false);
+		        htmlMedia.addEventListener(&quot;contextmenu&quot;, clickHandler, false);
+		        
+			    // Create HTML root element
+			    html = document.createElementNS(xhtmlNs, &quot;html&quot;);
+			    html.appendChild(htmlMedia);
+		
+			    // Create SVG foreign object
+			    foreignObject = document.createElementNS(svgNs, &quot;foreignObject&quot;);
+			    foreignObject.setAttribute(&quot;x&quot;, rect.getAttribute(&quot;x&quot;));
+			    foreignObject.setAttribute(&quot;y&quot;, rect.getAttribute(&quot;y&quot;));
+			    foreignObject.setAttribute(&quot;width&quot;, rect.getAttribute(&quot;width&quot;));
+			    foreignObject.setAttribute(&quot;height&quot;, rect.getAttribute(&quot;height&quot;));
+			    foreignObject.appendChild(html);
+				
+			    rect.parentNode.insertBefore(foreignObject, rect.nextSibling);
+			
+			    if (mediaSources[k][i].hasAttributeNS(soziNs, &quot;start-frame&quot;)) {
+			        registerFrameChangeHandler(htmlMedia,
+			            mediaSources[k][i].getAttributeNS(soziNs, &quot;start-frame&quot;),
+			            mediaSources[k][i].getAttributeNS(soziNs, &quot;stop-frame&quot;)
+			         );
+			    }
+			
+			    mediaList.push({
+				    rect: mediaSources[k][i].parentNode,
+				    htmlMedia: htmlMedia
+			    });
+		    }
+	    
+    		// Append HTML source element to current HTML media element
+    		mediaList[j].htmlMedia.appendChild(htmlSource);
+	    }
+	}				
+}, false);
+</script>
+  <g
+     id="g3019"
+     transform="translate(1651.4286,-99.999994)">
+    <rect
+       id="rect3021"
+       height="480"
+       width="640"
+       y="0"
+       x="0"
+       style="fill:#aaaaaa;stroke:none">
+      <ns1:video
+         ns1:stop-frame="frame5620"
+         ns1:start-frame="frame5620"
+         ns1:src="https://www.youtube.com/watch?v=iR6oYX1D-0w"
+         ns1:type="video/ogg" />
+    </rect>
+  </g>
   <ns1:frame
-     id="frame5638"
-     ns1:transition-path-hide="true"
-     ns1:transition-profile="linear"
-     ns1:transition-zoom-percent="0"
-     ns1:transition-duration-ms="1000"
-     ns1:timeout-ms="5000"
-     ns1:timeout-enable="false"
-     ns1:show-in-frame-list="true"
-     ns1:clip="true"
+     ns1:refid="rect3035"
+     ns1:title="Untitled"
+     ns1:sequence="3"
      ns1:hide="true"
-     ns1:sequence="2"
-     ns1:title="2"
-     ns1:refid="rect2991" />
+     ns1:clip="true"
+     ns1:show-in-frame-list="true"
+     ns1:timeout-enable="false"
+     ns1:timeout-ms="5000.0"
+     ns1:transition-duration-ms="1000.0"
+     ns1:transition-zoom-percent="0.0"
+     ns1:transition-profile="linear"
+     ns1:transition-path-hide="true"
+     id="3" />
 </svg>
