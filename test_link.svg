@@ -28,7 +28,7 @@
      inkscape:cx="414.84812"
      inkscape:cy="711.98223"
      inkscape:document-units="px"
-     inkscape:current-layer="svg3043"
+     inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1920"
      inkscape:window-height="1033"
@@ -81,7 +81,7 @@
        style="opacity:0.4875;fill:none;stroke:#1a1a1a;stroke-width:0.38075641"
        inkscape:label="#rect3055" />
     <a
-       transform="translate(919.99994,51.428572)"
+       transform="translate(862.85709,51.428572)"
        xlink:href="#frame2020"
        id="a3097">
       <path
@@ -633,10 +633,10 @@
        style="fill:#ffcc00"
        id="a4258"
        xlink:href="http://www.aveyron.com/parisien/introami.html"
-       transform="translate(1228.5713,51.428572)">
+       transform="translate(1385.7142,51.428572)">
       <path
          sodipodi:type="arc"
-         style="opacity:0.48749999999999999;fill:#ffcc00;stroke:#1a1a1a"
+         style="opacity:0.4875;fill:#ffcc00;stroke:#1a1a1a"
          id="path4260"
          sodipodi:cx="-1485.7142"
          sodipodi:cy="120.93361"
@@ -647,7 +647,7 @@
     </a>
     <a
        style="fill:#0000ff"
-       transform="translate(1517.1427,51.428572)"
+       transform="translate(1625.7141,54.285715)"
        xlink:href="https://www.youtube.com/watch?v=d3ThUlFiRF0"
        id="a4262">
       <path
@@ -658,8 +658,24 @@
          sodipodi:cy="120.93361"
          sodipodi:cx="-1485.7142"
          id="path4264"
-         style="opacity:0.48749999999999999;fill:#0000ff;stroke:#1a1a1a"
+         style="opacity:0.4875;fill:#0000ff;stroke:#1a1a1a"
          sodipodi:type="arc" />
+    </a>
+    <a
+       id="a4556"
+       xlink:href="https://upload.wikimedia.org/wikipedia/commons/b/bd/Rondo_Alla_Turka.ogg"
+       transform="translate(1111.4285,51.428573)"
+       style="fill:#00ffff">
+      <path
+         sodipodi:type="arc"
+         style="opacity:0.4875;fill:#00ffff;stroke:#1a1a1a"
+         id="path4558"
+         sodipodi:cx="-1485.7142"
+         sodipodi:cy="120.93361"
+         sodipodi:rx="80"
+         sodipodi:ry="80"
+         d="m -1405.7142,120.93361 c 0,44.18278 -35.8173,80 -80,80 -44.1828,0 -80,-35.81722 -80,-80 0,-44.182781 35.8172,-80.000001 80,-80.000001 44.1827,0 80,35.81722 80,80.000001 z"
+         transform="translate(831.42857,234.28571)" />
     </a>
   </g>
   <script
