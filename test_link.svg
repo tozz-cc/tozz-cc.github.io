@@ -26,8 +26,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.35907407"
-     inkscape:cx="592.43689"
-     inkscape:cy="229.51742"
+     inkscape:cx="628.64112"
+     inkscape:cy="672.32299"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -66,14 +66,14 @@
        id="rect3195"
        style="fill:#000000;fill-opacity:1;stroke:none" />
     <rect
-       style="opacity:0.4875;fill:none;stroke:#ffffff;stroke-width:1.76008773;stroke-miterlimit:4;stroke-dasharray:none"
+       style="opacity:0.4875;fill:none;stroke:#ffffff;stroke-width:2.08643556;stroke-miterlimit:4;stroke-dasharray:none"
        id="frame_1"
-       width="1398.2399"
-       height="638.83954"
-       x="-1405.2971"
-       y="458.27676"
+       width="1397.9136"
+       height="897.91357"
+       x="-1405.1339"
+       y="199.03957"
        inkscape:label="#rect3053" />
-    <foreignObject
+<!--     <foreignObject
        x="10"
        y="10"
        height="274"
@@ -88,7 +88,7 @@
            height="274"
            style="-webkit-backface-visibility: hidden;-webkit-transform: scale(1);" />
       </xhtml:div>
-    </foreignObject>
+    </foreignObject> -->
     <rect
        y="-264.51843"
        x="357.05283"
@@ -99,7 +99,7 @@
        inkscape:label="#rect3055" />
     <a
        transform="translate(1018.4734,420)"
-       xlink:href="#frame2020"
+       xlink:href="https://38.media.tumblr.com/3467ea7f0ba3b636b2fa786b2fdb6f31/tumblr_nc0bko4hJ11svefdfo1_400.gif"
        id="a3097">
       <path
          transform="translate(831.42857,234.28571)"
@@ -3497,6 +3497,9 @@ namespace(this, &quot;sozi.player&quot;, function (exports, window) {
  * 
  * See http://sozi.baierouge.fr/wiki/en:license for details.
  */
+#sozi-framenumber {
+   visibility: hidden;
+} 
 
 #sozi-toc text {
    fill: #eff;
