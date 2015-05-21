@@ -7,6 +7,14 @@
   background-color: white;
 }
 
-.img {
-  border: red;
+img {
+  width: 280px;
 }
+
+
+/*  <link href='carte_offre_test.css' rel='stylesheet' />
+ 
+<div id='legend'>
+  <p>some text</p>
+</div>
+*/
