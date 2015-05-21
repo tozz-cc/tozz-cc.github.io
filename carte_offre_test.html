@@ -1,93 +1,228 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset=utf-8 />
-<title>Filtering marker cluster groups</title>
-<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
-<script src='https://api.tiles.mapbox.com/mapbox.js/v2.1.9/mapbox.js'></script>
-<link href='https://api.tiles.mapbox.com/mapbox.js/v2.1.9/mapbox.css' rel='stylesheet' />
-<style>
-  body { margin:0; padding:0; }
-  #map { position:absolute; top:0; bottom:0; width:100%; }
-</style>
+  <meta charset=utf-8 />
+  <title></title>
+  <script src='https://api.tiles.mapbox.com/mapbox.js/v2.1.9/mapbox.js'></script>
+  <link href='https://api.tiles.mapbox.com/mapbox.js/v2.1.9/mapbox.css' rel='stylesheet' />
+  <link href='carte_offre_test.css' rel='stylesheet' />
+
+  <!--   MarkerCluster plugin -->
+  <script src='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/leaflet.markercluster.js'></script>
+  <link href='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/MarkerCluster.css' rel='stylesheet' />
+  <link href='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/MarkerCluster.Default.css' rel='stylesheet' />
+
+
+  <style>
+    body { margin:0; padding:0; }
+    .map { position:absolute; top:0; bottom:0; width:100%; }
+  </style>
 </head>
 <body>
-
-<script src='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/leaflet.markercluster.js'></script>
-<link href='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/MarkerCluster.css' rel='stylesheet' />
-<link href='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/MarkerCluster.Default.css' rel='stylesheet' />
-
-<style>
-#colors {
-    position: absolute;
-    top: 0;
-    right: 0;
-    background: #fff;
-    width: 150px;
-    padding:5px;
-}
-</style>
-<div id='map'></div>
-<form id='colors'>
-  <div><input type='checkbox' name='filters' onclick='showStations();' value='red' checked> red</div>
-  <div><input type='checkbox' name='filters' onclick='showStations();' value='green' checked> green</div>
-  <div><input type='checkbox' name='filters' onclick='showStations();' value='orange' checked> orange</div>
-  <div><input type='checkbox' name='filters' onclick='showStations();' value='yellow' checked> yellow</div>
-  <div><input type='checkbox' name='filters' onclick='showStations();' value='blue' checked> blue</div>
-</form>
-
-<script>
-L.mapbox.accessToken = 'pk.eyJ1IjoidG96eiIsImEiOiI3VXF5d3hZIn0.8iRGtrR59_uJiazxi0pcNA';
-// Here we don't use the second argument to map, since that would automatically
-// load in non-clustered markers from the layer. Instead we add just the
-// backing tileLayer, and then use the featureLayer only for its data.
-var map = L.mapbox.map('map')
-    .setView([38.9, -77], 13)
-    .addLayer(L.mapbox.tileLayer('mapbox.streets'));
-
-var overlays = L.layerGroup().addTo(map);
-
-// we create the 'layers' variable outside of the on('ready' callback
-// so that it can be accessible in the showStations function. Otherwise,
-// JavaScript scope would prevent you from accessing it.
-var layers;
-
-// Since featureLayer is an asynchronous method, we use the `.on('ready'`
-// call to only use its marker data once we know it is actually loaded.
-L.mapbox.featureLayer()
-    .loadURL('./poi.geojson')
-    .on('ready', function(e) {
-        layers = e.target;
-        showStations();
-    });
-
-var filters = document.getElementById('colors').filters;
-
-// There are many ways to filter data. Mapbox.js has the .setFilter method,
-// but it only applies to L.mapbox.featureLayer layers, and that isn't what
-// we're creating - we're making marker groups in a MarkerClusterGroup layer.
-// Thus we distill filtering down to its essential part: an 'if' statement
-// in a loop.
-function showStations() {
-    // first collect all of the checked boxes and create an array of strings
-    // like ['green', 'blue']
-    var list = [];
-    for (var i = 0; i < filters.length; i++) {
-        if (filters[i].checked) list.push(filters[i].value);
-    }
-    // then remove any previously-displayed marker groups
-    overlays.clearLayers();
-    // create a new marker group
-    var clusterGroup = new L.MarkerClusterGroup().addTo(overlays);
-    // and add any markers that fit the filtered criteria to that group.
-    layers.eachLayer(function(layer) {
-        if (list.indexOf(layer.feature.properties.line) !== -1) {
-            clusterGroup.addLayer(layer);
+  <div id='map_simple' class='map'> </div>
+  <script>
+    L.mapbox.accessToken = 'pk.eyJ1IjoidG96eiIsImEiOiI3VXF5d3hZIn0.8iRGtrR59_uJiazxi0pcNA';
+    var rose = "#EC008C";
+    var bleu = "#00A5E8";
+    var orange = "#F78F31";
+    var geojson = [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [2.349999,48.86]
+        },
+        "properties": {
+          "title": "ladepanne.fr",
+          "description": "Site internet pour organiser du prêt de matériel de bricolage entre particuliers. <br/> <a href='http://ladepanne.fr/'><img src='http://www.topcom.fr/wp-content/uploads/2015/04/Mr-bricolage-636x365.png'></a>",
+          "marker-color": rose,
+          "marker-size": "medium",
+          "marker-symbol": ""
         }
-    });
-}
-</script>
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.0422325134277,42.3494101993075]
+        },
+        "properties": {
+          "title": "Enevo",
+          "description": "Service de collecte d'ordure optimisé par des capteurs. <br/> <a href='http://enevo.com/'><img src='http://cdn.enevo.com/wp/wp-content/themes/enevocom/img/illustration_optimized-route.png'></a>",
+          "marker-color": bleu,
+          "marker-size": "medium",
+          "marker-symbol": ""
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-0.08885,51.52562]
+        },
+        "properties": {
+          "title": "Winnow",
+          "description": "Service de collecte d'ordure optimisé par des capteurs. <br/> <a href='http://www.winnowsolutions.com/'><img src='http://static.guim.co.uk/sys-images/Guardian/Pix/commercial/2014/3/28/1396008952606/Winnow-Solutions-talking--009.jpg'></a>",
+          "marker-color": bleu,
+          "marker-size": "medium",
+          "marker-symbol": ""
+        }
+      },
+        {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-122.339000,47.618000]
+        },
+        "properties": {
+          "title": "Amazon Elastic Compute Cloud",
+          "description": "Hébergement web ultra-flexible. <br/> <a href='http://aws.amazon.com/ec2/'><img src='http://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/AmazonWebservices_Logo.svg/1280px-AmazonWebservices_Logo.svg.png'></a>",
+          "marker-color": bleu,
+          "marker-size": "medium",
+          "marker-symbol": ""
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-97.7499,30.3080]
+        },
+        "properties": {
+          "title": "Able",
+          "description": "Service de crédit semi-participatif. <br/> <a href='https://www.ablelending.com/'><img src=''></a>",
+          "marker-color": orange,
+          "marker-size": "medium",
+          "marker-symbol": ""
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [2.201,46.495]
+        },
+        "properties": {
+          "title": "PowerFoule",
+          "description": "Regroupement d'acheteur d'énergie. <br/> <a href='http://www.powerfoule.fr/'><img src=''></a>",
+          "marker-color": rose,
+          "marker-size": "medium",
+          "marker-symbol": ""
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [72.94922,19.97335]
+        },
+        "properties": {
+          "title": "Dabbawallah",
+          "description": "Système de livraison de repas. <br/> <a href=''><img src='http://www.fondation-langlois.org/media/projets/1648-5-2003/carting.jpg'></a>",
+          "marker-color": bleu,
+          "marker-size": "medium",
+          "marker-symbol": ""
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [2.3980,47.0780]
+        },
+        "properties": {
+          "title": "SCIC Berry Energie Bocage",
+          "description": "Société Coopérative d’intérêt collectif qui rapproche les producteurs de plaquettes des collectivités dotées de chaudières et réseau de chaleur : fournisseur d'énergie (chaleur) en concurrence directe avec des distributeurs de fioul ou gaz.  <br/> <a href=''></a>",
+          "marker-color": rose,
+          "marker-size": "medium",
+          "marker-symbol": ""
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [2.39,48.88]
+        },
+        "properties": {
+          "title": "Qarnot Computing",
+          "description": "Traiter des informations à domicile pour se chauffer gratuitement.  <br/> <a href='http://www.qarnot-computing.com/technology'><img src='http://www.quelleenergie.fr/magazine/wp-content/uploads/2015/02/qarnot-computing.jpg'></a>",
+          "marker-color": bleu,
+          "marker-size": "medium",
+          "marker-symbol": ""
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [2.2,46.4]
+        },
+        "properties": {
+          "title": "Babelthèque",
+          "description": "Babelthèque permet aux bibliothèques d’enrichir leurs OPAC et leurs sites Internet en important le contenu produit par les membres de la communauté de lecteurs Babelio.com : critiques, citations, nuages d’étiquettes etc.  <br/> <a href='http://www.babeltheque.com/'><img src='http://www.indexpresse.fr/wp-content/uploads/2014/01/logo-babeltheque21.png'></a>",
+          "marker-color": rose,
+          "marker-size": "medium",
+          "marker-symbol": ""
+        }
+      },
+    ];
 
+    var mapSimple = L.mapbox.map('map_simple', 'mapbox.light')
+      //.setView([37.8, -96], 4);
+    var myLayer = L.mapbox.featureLayer().setGeoJSON(geojson).addTo(mapSimple);  
+    //mapSimple.scrollWheelZoom.disable();
+
+    L.mapbox.accessToken = 'pk.eyJ1IjoidG96eiIsImEiOiI3VXF5d3hZIn0.8iRGtrR59_uJiazxi0pcNA';
+    // Here we don't use the second argument to map, since that would automatically
+    // load in non-clustered markers from the layer. Instead we add just the
+    // backing tileLayer, and then use the featureLayer only for its data.
+    var map = L.mapbox.map('map')
+        .setView([38.9, -77], 13)
+        .addLayer(L.mapbox.tileLayer('mapbox.streets'));
+
+    var overlays = L.layerGroup().addTo(map);
+
+    // we create the 'layers' variable outside of the on('ready' callback
+    // so that it can be accessible in the showStations function. Otherwise,
+    // JavaScript scope would prevent you from accessing it.
+    var layers;
+
+    // Since featureLayer is an asynchronous method, we use the `.on('ready'`
+    // call to only use its marker data once we know it is actually loaded.
+    L.mapbox.featureLayer()
+        .loadURL('/poi.geojson')
+        .on('ready', function(e) {
+            layers = e.target;
+            showStations();
+        });
+
+    var filters = document.getElementById('colors').filters;
+
+    // There are many ways to filter data. Mapbox.js has the .setFilter method,
+    // but it only applies to L.mapbox.featureLayer layers, and that isn't what
+    // we're creating - we're making marker groups in a MarkerClusterGroup layer.
+    // Thus we distill filtering down to its essential part: an 'if' statement
+    // in a loop.
+    function showStations() {
+        // first collect all of the checked boxes and create an array of strings
+        // like ['green', 'blue']
+        var list = [];
+        for (var i = 0; i < filters.length; i++) {
+            if (filters[i].checked) list.push(filters[i].value);
+        }
+        // then remove any previously-displayed marker groups
+        overlays.clearLayers();
+        // create a new marker group
+        var clusterGroup = new L.MarkerClusterGroup().addTo(overlays);
+        // and add any markers that fit the filtered criteria to that group.
+        layers.eachLayer(function(layer) {
+            if (list.indexOf(layer.feature.properties.line) !== -1) {
+                clusterGroup.addLayer(layer);
+            }
+        });
+    }
+  </script>
 </body>
 </html>
 
