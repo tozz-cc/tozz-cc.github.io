@@ -10,16 +10,15 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Van Dorn Street",
-        "marker-color": "#0000ff",
-        "marker-symbol": "rail-metro",
-        "line": "blue"
+        "title": "ladepanne.fr",
+        "description": "Site internet pour organiser du prêt de matériel de bricolage entre particuliers. <br/> <a href='http://ladepanne.fr/'><img src='http://www.topcom.fr/wp-content/uploads/2015/04/Mr-bricolage-636x365.png'></a>",
+        "marker-color": rose,
+        "marker-size": "medium",
+        "marker-symbol": ""
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -77.12911152370515,
-          38.79930767201779
+        "coordinates": [2.349999,48.86]
         ]
       }
     },
