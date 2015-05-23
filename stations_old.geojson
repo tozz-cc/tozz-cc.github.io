@@ -1,0 +1,119 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Van Dorn Street",
+        "description": "Site internet pour organiser du prêt de matériel de bricolage entre particuliers. <a href='http://ladepanne.fr/'><img src='http://www.topcom.fr/wp-content/uploads/2015/04/Mr-bricolage-636x365.png'></a>",
+        "marker-color": "#00008C",
+        "marker-symbol": "bicycle",
+        "line": "blue"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.12911152370515,
+          38.79930767201779
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Waterfront",
+        "marker-color": "#008000",
+        "marker-symbol": "fast-food",
+        "line": "green"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.01750520880347,
+          38.87646186689611
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ronald Reagan Washington National Airport",
+        "marker-color": "#00008C",
+        "marker-symbol": "bicycle",
+        "line": "blue"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.00404229438322,
+          38.85341638599062
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ronald Reagan Washington National Airport",
+        "marker-color": "#008000",
+        "marker-symbol": "bicycle",
+        "line": "green"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.04404229438322,
+          38.72341638599062
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ronald Reagan Washington National Airport",
+        "marker-color": "#DCDC10",
+        "marker-symbol": "bicycle",
+        "line": "yellow"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.03404229438322,
+          38.85341638599062
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Roqsdfnald Reagan Washington National Airport",
+        "marker-color": "#DCDC10",
+        "marker-symbol": "bicycle",
+        "line": "yellow"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.10404229438322,
+          38.85341638599062
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "shington National Airport",
+        "marker-color": "#E35516",
+        "marker-symbol": "bicycle",
+        "line": "orange"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.04404229438322,
+          38.84341638599062
+        ]
+      }
+    }
+  ]
+}
+
