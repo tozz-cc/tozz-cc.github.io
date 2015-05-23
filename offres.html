@@ -6,10 +6,7 @@
 		<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
 		<script src='https://api.tiles.mapbox.com/mapbox.js/v2.1.9/mapbox.js'></script>
 		<link href='https://api.tiles.mapbox.com/mapbox.js/v2.1.9/mapbox.css' rel='stylesheet' />
-		<style>
-			body { margin:0; padding:0; }
-			#map { position:absolute; top:0; bottom:0; width:100%; }
-		</style>
+		<link href='carte_offre_test.css' rel='stylesheet' />
 	</head>
 	<body>
 
@@ -17,25 +14,20 @@
 		<link href='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/MarkerCluster.css' rel='stylesheet' />
 		<link href='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/MarkerCluster.Default.css' rel='stylesheet' />
 
-		<style>
-			#colors {
-				position: absolute;
-				top: 0;
-				right: 0;
-				background: #fff;
-				width: 150px;
-				padding:5px;
-			}
-		</style>
 		<div id='map'></div>
-		<form id='colors'>
-			<div><input type='checkbox' name='filters' onclick='showStations();' value='red' checked> Émancipation</div>
-			<div><input type='checkbox' name='filters' onclick='showStations();' value='blue' checked> Captation et gestion de données</div>
-			<div><input type='checkbox' name='filters' onclick='showStations();' value='purple' checked> Communication</div>
-			<div><input type='checkbox' name='filters' onclick='showStations();' value='yellow' checked> Financement</div>
-			<div><input type='checkbox' name='filters' onclick='showStations();' value='pink' checked> Mutualisation</div>
-			<div><input type='checkbox' name='filters' onclick='showStations();' value='darkblue' checked> Relation Client</div>			
-		</form>
+
+		<div id='legend'>
+			<h3> Petit Atlas d'Offres et Services Innovants dans le secteur professionel </h3>
+			<p> ici un texte de présentation </p>
+			<form id='colors'>
+				<div><input type='checkbox' name='filters' onclick='showStations();' value='red' checked> Émancipation</div>
+				<div><input type='checkbox' name='filters' onclick='showStations();' value='blue' checked> Captation et gestion de données</div>
+				<div><input type='checkbox' name='filters' onclick='showStations();' value='purple' checked> Communication</div>
+				<div><input type='checkbox' name='filters' onclick='showStations();' value='yellow' checked> Financement</div>
+				<div><input type='checkbox' name='filters' onclick='showStations();' value='pink' checked> Mutualisation</div>
+				<div><input type='checkbox' name='filters' onclick='showStations();' value='darkblue' checked> Relation Client</div>			
+			</form>
+		</div>
 
 		<script>
 			// function showStations from :
