@@ -1,6 +1,37 @@
+@font-face{ 
+	font-family: 'dinbek-bold';
+	src: url('fonts/dinbek_web/dinbek-bold-webfont.eot');
+	src: url('fonts/dinbek_web/dinbek-bold-webfont.eot?#iefix') format('embedded-opentype'),
+	     url('fonts/dinbek_web/dinbek-bold-webfont.woff') format('woff'),
+	     url('fonts/dinbek_web/dinbek-bold-webfont.ttf') format('truetype'),
+	     url('fonts/dinbek_web/dinbek-bold-webfont.svg#webfont') format('svg');
+}
+
+@font-face{ 
+	font-family: 'dinbek-regular';
+	src: url('fonts/dinbek_web/dinbek-regular-webfont.eot');
+	src: url('fonts/dinbek_web/dinbek-regular-webfont.eot?#iefix') format('embedded-opentype'),
+	     url('fonts/dinbek_web/dinbek-regular-webfont.woff') format('woff'),
+	     url('fonts/dinbek_web/dinbek-regular-webfont.ttf') format('truetype'),
+	     url('fonts/dinbek_web/dinbek-regular-webfont.svg#webfont') format('svg');
+}
+
+@font-face{ 
+	font-family: 'dinbek-light';
+	src: url('fonts/dinbek_web/dinbek-light-webfont.eot');
+	src: url('fonts/dinbek_web/dinbek-light-webfont.eot?#iefix') format('embedded-opentype'),
+	     url('fonts/dinbek_web/dinbek-light-webfont.woff') format('woff'),
+	     url('fonts/dinbek_web/dinbek-light-webfont.ttf') format('truetype'),
+	     url('fonts/dinbek_web/dinbek-light-webfont.svg#webfont') format('svg');
+}
+
 body { 
 	margin:0; padding:0; 
-	font-family: arial;
+	font-family: 'dinbek-light', arial;
+}
+
+h1 {
+	font-family: 'dinbek-regular', arial;
 }
 
 #map { 
@@ -12,7 +43,7 @@ body {
   top: 20px;
   right: 20px;
   height: 400px;
-  width: 15%;
+  width: 20%;
   background-color: white;
   padding: 10px;
   -moz-box-shadow:    0px 0px 5px 6px #ccc;
@@ -20,6 +51,37 @@ body {
   box-shadow:         0px 0px 5px 6px #ccc;
 }
 
+.red {
+	font.color:'#ED1A3D';
+}
+
+#blue {
+	font.color:'#00A5E8';
+}
+
+#purple {
+	color:'#544192';
+}
+
+#pink {
+	color:'#EC008C';
+}
+
+#yellow {
+	color:'#FFCF19';
+}
+
+#darkblue {
+	color:'#005FAE';
+}
+
+.footer {
+	font-size: 14px;
+	text-align: center;
+    position: absolute;
+    bottom: 10px;
+  }
+}
 img {
   width: 280px;
 }
@@ -27,3 +89,4 @@ img {
 #colors {
 
 }
+
