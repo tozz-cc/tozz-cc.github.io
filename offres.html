@@ -7,6 +7,7 @@
 		<script src='https://api.tiles.mapbox.com/mapbox.js/v2.1.9/mapbox.js'></script>
 		<link href='https://api.tiles.mapbox.com/mapbox.js/v2.1.9/mapbox.css' rel='stylesheet' />
 		<link href='carte_offre_test.css' rel='stylesheet' />
+		<link href='leaflet_popup.css' rel='stylesheet' />
 	</head>
 	<body>
 
@@ -17,8 +18,8 @@
 		<div id='map'></div>
 
 		<div id='legend'>
-			<h3> Atlas des Offres et Services innovants a destination des professionels </h3>
-			<p> Ici un texte de presentation </br>...</p>
+			<h3> Petit Atlas d'Offres et Services innovants</h3>
+			<p class="italic">Offres a afficher :</br></p>
 				<form id='colors'>
 				<div id='yellow'><input type='checkbox' name='filters' onclick='showStations();' value='yellow' checked> Financement</div>
 				<div id='red'><input type='checkbox' name='filters' onclick='showStations();' value='red' checked> Emancipation</div>
@@ -27,7 +28,7 @@
 				<div id='darkblue'><input type='checkbox' name='filters' onclick='showStations();' value='darkblue' checked> Relation client</div>	
 				<div id='purple'><input type='checkbox' name='filters' onclick='showStations();' value='purple' checked> Communication</div>
 				</form>
-			<span class="footer"> Copyright EDF R&D - 2015</span>
+			<p class="footer">Copyright EDF R&D - 2015</p>
 		</div>
 
 		<script>
@@ -43,8 +44,8 @@
 			// load in non-clustered markers from the layer. Instead we add just the
 			// backing tileLayer, and then use the featureLayer only for its data.
 			var map = L.mapbox.map('map')
-				.setView([38.9, -77], 4)
-				.addLayer(L.mapbox.tileLayer('mapbox.light'));
+				.setView([39.2578,-38.7241], 4)
+				.addLayer(L.mapbox.tileLayer('tozz.528ff736'));
 			
 			// seems useless !
 			// var overlays = L.layerGroup().addTo(map);

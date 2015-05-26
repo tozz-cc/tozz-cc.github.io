@@ -1,0 +1,23 @@
+.leaflet-popup-content-wrapper,
+.leaflet-popup {
+	font-size: 14px;
+	width: 441px;
+	padding: 10px;
+	padding-bottom: 0px;
+}
+
+.marker-title,
+.marker-description {
+	width: 400px;
+}
+
+img {
+	width: 400px;
+ 	margin-bottom: 0;
+ 	margin-top: 15px;
+}
+
+.marker-description {
+	padding-bottom: 0;
+	margin-top: 5px;
+}

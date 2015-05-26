@@ -13,8 +13,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          2.349999,
-          48.86
+          1.4329,
+          43.6007
         ]
       }
     },
@@ -57,7 +57,22 @@
       },
       "properties": {
         "title": "Amazon Elastic Compute Cloud",
-        "description": "Hébergement web ultra-flexible. <br/> <a href='http://aws.amazon.com/ec2/'><img src='http://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/AmazonWebservices_Logo.svg/1280px-AmazonWebservices_Logo.svg.png'></a>",
+        "description": "La fréquentation du site marchand Amazon est grandement liée au calendrier, pendant les périodes de fête le traffic peut même doubler. Cette fluctuation a amené l'entreprise à mettre au point une infrascture technique flexible, capable de s'adapter en temps réel à la demande. Ce projet est depuis devenu un service proposé aux entreprises et particulièrement adapté aux startups : offre unique, facturation à l'heure, garantie de fonctionnement, résistance aux changement d'échelle (scalable). <br/> <a href='http://aws.amazon.com/ec2/'><img src='http://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/AmazonWebservices_Logo.svg/1280px-AmazonWebservices_Logo.svg.png'></a>",
+        "marker-color": "#00A5E8",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "line": "blue"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-121.3146,44.0614]
+      },
+      "properties": {
+        "title": "Amazon Home Services",
+        "description": "Plateforme de mise en relation avec des prestataires de services : qu'il s'agisse d'installer une nouvelle télévision, d'effectuer des travaux de plomberie, d'entretenir le jardin ou de prendre des cours de chants, Amazon commercialise désormais une panoplie de services effectués par des artisans et freelance directement depuis son site Internet. En pratique, après avoir acheté un chauffage ou un ventilateur, il sera possible de louer les services d'un professionnel pour procéder à une installation à la maison. De leur côté, les artisans multiplieront leurs ventes et retourneront ainsi une commission à Amazon. Ils disposeront d'une page de profil sur le site avec un calendrier de leurs disponibilités, leurs horaires d'ouverture ainsi que les régions au sein desquels ils peuvent se déplacer. <br/> <a href='http://www.amazon.com/services'><img src='http://www.bluebus.com.br/wp-content/uploads/2015/03/amazon-home-services.png'></a>",
         "marker-color": "#00A5E8",
         "marker-size": "medium",
         "marker-symbol": "",
@@ -68,7 +83,7 @@
         "type": "Feature",
         "geometry": {
           "type": "Point",
-          "coordinates": [-122.2353,37.7589]
+          "coordinates": [-111.9205,40.7765]
         },
         "properties": {
           "title": "Comfy",
@@ -132,7 +147,37 @@
         },
         "properties": {
           "title": "Dabbawallah",
-          "description": "Système de livraison de repas. <br/> <a href=''><img src='http://www.fondation-langlois.org/media/projets/1648-5-2003/carting.jpg'></a>",
+          "description": "Livraison de boites à repas. Ce systeme logistique complexe et populaire, typique de la région de Mumbai, repose sur la fiabilité des Dabawallah (livreurs de repas). Ces livreurs de confiance sont capables de livrer 175 000 repas par jour et d'accéder à n'importe quelle destination avec une grande précision. <br/> <a href=''><img src='http://www.fondation-langlois.org/media/projets/1648-5-2003/carting.jpg'></a>",
+          "marker-color": "#00A5E8",
+          "marker-size": "medium",
+          "marker-symbol": "",
+          "line": "blue"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-2.3597,51.3817]
+        },
+        "properties": {
+          "title": "GoCardless",
+          "description": "Le service Gocardless propose une plateforme aux PME pour automatiser et gerer le suivi du paiement de ses clients par prélèvement automatique. L'originalité de Gocardless réside dans la simplicité de sa plateforme et de sa disponibilité 100% en ligne. <br/> <a href='https://gocardless.com'><img src='https://gocardless.com/images/hero/new-home-hero.jpg'></a>",
+          "marker-color": "#00A5E8",
+          "marker-size": "medium",
+          "marker-symbol": "",
+          "line": "blue"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-122.7035,38.4354]
+        },
+        "properties": {
+          "title": "Square",
+          "description": "Square cherche à simplifier et favoriser l'accès au payement par carte bancaire pour les petits commerces. Le service utilise un lecteur de carte propriétaire, se branchant sur smartphone et tablette. Pour inciter à l'adoption de son produit, Square s'appuie sur un logiciel permettant de gérer son commerce (commandes, factures, stocks) via tablette et offert avec la souscription. <br/> <a href='https://squareup.com/register'><img src='http://merchantaccountreviews.biz/wp-content/uploads/2012/01/SquareUp-iPhone-attachment-450x300.jpg'></a>",
           "marker-color": "#00A5E8",
           "marker-size": "medium",
           "marker-symbol": "",
@@ -162,7 +207,7 @@
         },
         "properties": {
           "title": "CityTouch",
-          "description": "Gestion à distance de l'ensemble de l'éclairage public. <br/> <a href='http://www.lighting.philips.com/main/systems/packaged-offerings/public-spaces/city-touch'></a>",
+          "description": "Philips propose aux collectivités une offre 'éclairage intelligent'. Chaque point lumineux de la villes devient interconecté et pilotable à distance. Ainsi la gestion à distance de ces infrastructures permets d'améliorer la sécurité, de diminuer les consommations de facilité les opération de maintenances. <br/> <a href='http://www.lighting.philips.com/main/systems/packaged-offerings/public-spaces/city-touch'></a>",
           "marker-color": "#00A5E8",
           "marker-size": "medium",
           "marker-symbol": "",
@@ -173,7 +218,7 @@
         "type": "Feature",
         "geometry": {
           "type": "Point",
-          "coordinates": [2.39,48.88]
+          "coordinates": [-1.6728,48.1031]
         },
         "properties": {
           "title": "Qarnot Computing",
@@ -209,7 +254,7 @@
         },
         "properties": {
           "title": "Court-circuit",
-          "description": "Ressourcerie couplée à une déchèterie : d’une part il permet d’optimiser le taux de réutilisation et de diminuer d’autant la part de déchets à traiter. D’autre part, la service qu’offre la ressourcerie devient d’autant plus lisible et s’intègre dans un processus plus global de traitement des déchets.  <br/> <a href='https://courtcircuitfelletin.wordpress.com/2015/01/15/visite-de-la-ressourcerie-dechetterie-de-cusset/'><img src='http://images.tecchannel.de/images/tecchannel/bdb/345710/890x.jpg'></a>",
+          "description": "Ressourcerie couplée à une déchèterie : d’une part il permet d’optimiser le taux de réutilisation et de diminuer d’autant la part de déchets à traiter. D’autre part, la service qu’offre la ressourcerie devient d’autant plus lisible et s’intègre dans un processus plus global de traitement des déchets.  <br/> <a href='https://courtcircuitfelletin.wordpress.com/2015/01/15/visite-de-la-ressourcerie-dechetterie-de-cusset/'><img src=''></a>",
           "marker-color": "#ED1A3D",
           "marker-size": "medium",
           "marker-symbol": "",
@@ -221,7 +266,7 @@
         "type": "Feature",
         "geometry": {
           "type": "Point",
-          "coordinates": [2.2,46.4]
+          "coordinates": [-0.5862,44.8635]
         },
         "properties": {
           "title": "Babelthèque",
@@ -236,11 +281,11 @@
         "type": "Feature",
         "geometry": {
           "type": "Point",
-          "coordinates": [2.249794,48.889087]
+          "coordinates": [4.8351,45.7578]
         },
         "properties": {
           "title": "Lyonnaise des eaux",
-          "description": "Portail web de gestion de la consommation d’eau se distinguant par la simplicité de l'expérience proposée à l'utilisateur. Pas de différenciation en fonction de la typologie de client, que ce soit particulier, collectivité ou entreprises. Un contact avec un conseiller peut se faire à tout moment par chat en ligne ou par téléphone, dans ce cas, deux numéros : pour les urgences ou demandes usuelles. <br/> <a href='http://www.babeltheque.com/'><img src='img/lyonnaisedeseaux.png'></a>",
+          "description": "Un portail web de gestion de la consommation d’eau se distinguant par la simplicité de l'expérience proposée à l'utilisateur. Pas de différenciation en fonction de la typologie de client, que ce soit particulier, collectivité ou entreprises. Un contact avec un conseiller peut se faire à tout moment par chat en ligne ou par téléphone, dans ce cas, deux numéros : pour les urgences ou demandes usuelles. <br/> <a href='http://www.babeltheque.com/'><img src='./img/lyonnaisedeseaux.png'></a>",
           "marker-color": "#005FAE",
           "marker-size": "medium",
           "marker-symbol": "",
@@ -251,7 +296,7 @@
         "type": "Feature",
         "geometry": {
           "type": "Point",
-          "coordinates": [2.33, 48.82]
+          "coordinates": [2.1191, 48.8039]
         },
         "properties": {
           "title": "Dans ma rue",
@@ -266,7 +311,7 @@
         "type": "Feature",
         "geometry": {
           "type": "Point",
-          "coordinates": [2.35350, 48.89383]
+          "coordinates": [7.7621, 48.5691]
         },
         "properties": {
           "title": "Refact",
@@ -281,7 +326,7 @@
         "type": "Feature",
         "geometry": {
           "type": "Point",
-          "coordinates": [2.32,48.889087]
+          "coordinates": [2.3657,48.9268]
         },
         "properties": {
           "title": "Paris Connect",
@@ -296,7 +341,7 @@
         "type": "Feature",
         "geometry": {
           "type": "Point",
-          "coordinates": [2.30,48.87]
+          "coordinates": [3.0918,48.8096]
         },
         "properties": {
           "title": "Les encombrants",
@@ -330,11 +375,146 @@
         },
         "properties": {
           "title": "Jun, la commune espagnole gérée sur twitter",
-          "description": "Pour gagner en réactivité dans la gestion de sa ville, le maie de Jun a décidé d'utiliser twitter pour l'ensemble des services administratifs (police y compris). <br/> <a href='http://rue89.nouvelobs.com/2015/04/21/jun-petite-ville-espagnole-geree-twitter-258783'><img src='https://d262ilb51hltx0.cloudfront.net/max/800/1*2zgHCKEXgd9aHnnvsupbZw.jpeg'></a>",
+          "description": "Pour gagner en réactivité dans la gestion de sa ville, le maire de Jun a décidé d'utiliser twitter pour l'ensemble des services administratifs (police y compris). Les citoyens bénéficient donc d'un moyen immédiat et ouvert à la discussion afin de reporter des problèmes ou proposer des amélioration pour leur ville.<br/> <a href='http://rue89.nouvelobs.com/2015/04/21/jun-petite-ville-espagnole-geree-twitter-258783'><img src='https://d262ilb51hltx0.cloudfront.net/max/800/1*2zgHCKEXgd9aHnnvsupbZw.jpeg'></a>",
+          "marker-color": "#ED1A3D",
+          "marker-size": "medium",
+          "marker-symbol": "",
+          "line": "red"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [8.5367,47.3775]
+        },
+        "properties": {
+          "title": "pumpipumpe.ch",
+          "description": "Cette initiative invite à coller sur sa boîte aux lettres des stickers indiquant les objets que l’on veut bien prêter à ses voisins. Outils de bricolage, de jardinage, ustensiles de cuisine, livres, accès WiFi, etc, un sticker existe pour chaque objet. Ces autocollants se commandent gratuitement sur la plateforme web sur laquelle figure également une carte des objets empruntuble. <br/> <a href='http://www.laposte.fr/lehub/En-Suisse-des-stickers-sur-la'><img src='http://www.laposte.fr/lehub/IMG/jpg/etiquette.jpg'></a>",
           "marker-color": "#EC008C",
           "marker-size": "medium",
           "marker-symbol": "",
           "line": "pink"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [5.3806,43.2804]
+        },
+        "properties": {
+          "title": "Linke",
+          "description": "Linke est une application gratuite qui offre une vue globale sur l’ensemble de ses contrats de fourniture d'énergie et d'eaux. Le particulier renseigne les informations concernant les caractéristiques de son habitation et de ses équipements. Linke intègre et fait la synthèse des contrats de fournitures (EDF, GDF, direct énergie, Véolia, etc) et actualise les tarifs appliqués en temps réel.<br/> <a href='http://rue89.nouvelobs.com/2015/04/21/jun-petite-ville-espagnole-geree-twitter-258783'><img src='https://www.linke.fr/wp-content/uploads/2015/04/app_08.png'></a>",
+          "marker-color": "#ED1A3D",
+          "marker-size": "medium",
+          "marker-symbol": "",
+          "line": "red"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [4.3666,45.4241]
+        },
+        "properties": {
+          "title": "Watt&Moi",
+          "description": "Des foyers ont été munis de compteurs communiquants pour suivre précisement leur consommation et comprendre les usages qui découlent de ces informations. <br/> <a href='http://www.tuba-lyon.com/wattmoi/'><img src='http://www.magazine.grandlyon.com/wp-content/blogs.dir/19/files/ma-ville/wattetmoi_schemaexplicatif.jpg'></a>",
+          "marker-color": "#544192",
+          "marker-size": "medium",
+          "marker-symbol": "",
+          "line": "purple"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [5.7154, 45.1841]
+        },
+        "properties": {
+          "title": "Application TCL SYTRAL",
+          "description": "Application destinée à faciliter l'utilisation des services de transport de Lyon <br/> <a href='https://teleservices.paris.fr/sira/jsp/site/Portal.jsp?page=formengine&form=signalement'><img src='http://www.tuba-lyon.com/wp-content/uploads/2014/09/appli_tcl_thumb.jpg'></a>",
+          "marker-color": "#00A5E8",
+          "marker-size": "medium",
+          "marker-symbol": "",
+          "line": "blue"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-1.5603, 47.2383]
+        },
+        "properties": {
+          "title": "Flui.city",
+          "description": "Service de consultation citoyenne à destination ds élus. Aide à la décision. <br/> <a href='http://www.flui.city/'><img src='http://i.ytimg.com/vi/MxribCVXRuI/maxresdefault.jpg'></a>",
+          "marker-color": "#00A5E8",
+          "marker-size": "medium",
+          "marker-symbol": "",
+          "line": "blue"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-118.4117, 34.0211]
+        },
+        "properties": {
+          "title": "Transcitymix",
+          "description": "Cette application permet de maquetter et de tester les couts et la viablité d'une ligne de bus. à destination des collectivités et des citoyens. Pour designer son systeme de transport rêvé. <br/> <a href='http://www.codeforamerica.org/blog/2014/07/07/transitmix-design-your-perfect-bus-system/'><img src='http://uploads.webflow.com/541fcc0af5feb623699d9bfe/54d80a84e83f58fe18e7a1e3_austin-pro.jpg'></a>",
+          "marker-color": "#ED1A3D",
+          "marker-size": "medium",
+          "marker-symbol": "",
+          "line": "red"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [36.8172,-1.2833]
+        },
+        "properties": {
+          "title": "Brck",
+          "description": "Brck vend un objet autonome permettant de créer une liason internet via Satellite. L'offre cible particulièrement les pays en voie de développement, n'ayant pas les infrastructures pour de l'Internet câblé. <br/> <a href='http://www.brck.com'><img src='http://www.gizmodo.fr/wp-content/uploads/2013/05/brck-petite-boite-toujours-connecte.jpg'></a>",
+          "marker-color": "#00A5E8",
+          "marker-size": "medium",
+          "marker-symbol": "",
+          "line": "blue"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-17.4470,14.6931]
+        },
+        "properties": {
+          "title": "Station Energy",
+          "description": "Station Energy Services a développé un concept innovant de distribution de produits et services de base. S’inspirant à la fois du modèle des stations-services essence et des épiceries africaines, cette boutique équipée de panneaux solaires propose la vente de différents produits et services : location de batteries et lampes solaire, vente de boissons fraiches et aliments, recharge de téléphone, accès à internet, mobile money, etc. <br/> <a href='http://www.station-energy.com/'><img src='http://www.station-energy.com/wp-content/uploads/2013/08/IMGP4000_entree2.jpg'></a>",
+          "marker-color": "#EC008C",
+          "marker-size": "medium",
+          "marker-symbol": "",
+          "line": "pink"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-122.1368, 37.3818]
+        },
+        "properties": {
+          "title": "Open Big Data",
+          "description": "La ville de Palo Alto a lancé son Open Budget (budget ouvert), un outil qui permet d’accéder aux dépenses et revenus de la ville lignes budgétaires par lignes budgétaires depuis 2008. Un outil qui ne sert pas seulement la transparence locale, mais aussi le pilotage de la vie locale et qui a eut un tel succès que la startup qui l’a imaginé, OpenGov, l’a depuis proposé à une centaine de villes américaines. <br/> <a href='http://data.cityofpaloalto.org/home/'><img src='http://www.periodismociudadano.com/wp-content/uploads/2014/05/palo-alto-500x280.jpg'></a>",
+          "marker-color": "#ED1A3D",
+          "marker-size": "medium",
+          "marker-symbol": "",
+          "line": "red"
         }
       }
   ]
