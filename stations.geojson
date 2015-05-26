@@ -5,7 +5,7 @@
       "type": "Feature",
       "properties": {
         "title": "ladepanne.fr",
-        "description": "Site internet pour organiser du prêt de matériel de bricolage entre particuliers. <a href='http://ladepanne.fr/'><img src='http://www.topcom.fr/wp-content/uploads/2015/04/Mr-bricolage-636x365.png'></a>",
+        "description": "Mis en place par l'enseigne Mr. Bricolage, ce site internet permet d'organiser de la location de matériel de bricolage entre particuliers. Une perceuse n'est utilisée que douze minutes dans son cycle de vie par exemple. Mettre son matériel en location va permettre aux membres de le rentabiliser et de gagner de l'argent et ceux qui louent feront des économies. Pour Mr. Bricolage c'est une source d'information et de contacts précieuse. La Dépanne est un outil de prospection pour le site marchand : plus les «bricoleurs-dépanneurs» s'engagent sur le site communautaire en postant des avis par exemple, plus ils gagnent de points pour bénéficier des bons d'achat en magasin. <a href='http://ladepanne.fr/'><img src='http://www.topcom.fr/wp-content/uploads/2015/04/Mr-bricolage-636x365.png'></a>",
         "marker-color": "#EC008C",
         "marker-symbol": "",
         "line": "pink"
@@ -13,6 +13,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+
           1.4329,
           43.6007
         ]
@@ -22,7 +23,7 @@
       "type": "Feature",
       "properties": {
         "title": "Enevo",
-        "description": "Service de collecte d'ordure optimisé par des capteurs. <br/> <a href='http://enevo.com/'><img src='http://cdn.enevo.com/wp/wp-content/themes/enevocom/img/illustration_optimized-route.png'></a>",
+        "description": "Enevo propose d'optimiser la collecte des déchets. Le service utilise des capteurs wifi placés à l'intérieur des poubelles et mesurant leur taux de remplissage, les données mesurées sont ensuite traitées pour déterminer la meilleure route pour la collecte. D'après le site web, ce principe ferait faire jusqu'à 50% d'économies sur les coûts de collecte. <br/> <a href='http://enevo.com/'><img src='http://cdn.enevo.com/wp/wp-content/themes/enevocom/img/illustration_optimized-route.png'></a>",
         "marker-color": "#00A5E8",
         "marker-symbol": "",
         "line": "blue"
@@ -39,7 +40,7 @@
       "type": "Feature",
       "properties": {
         "title": "Winnow",
-        "description": "Service de collecte d'ordure optimisé par des capteurs. <br/> <a href='http://www.winnowsolutions.com/'><img src='http://static.guim.co.uk/sys-images/Guardian/Pix/commercial/2014/3/28/1396008952606/Winnow-Solutions-talking--009.jpg'></a>",
+        "description": "Le service propose d'optimiser la gestion des stocks alimentaires des restaurateurs pour faire des économies et réduire le nombre des déchets. Une balance connectée à une application, permet de suivre précisement les quantités de nourriture jetées durant les services et d'optenir un rapport détaillé sur les optimisations à apporter pour les réduires. <br/> <a href='http://www.winnowsolutions.com/'><img src='http://static.guim.co.uk/sys-images/Guardian/Pix/commercial/2014/3/28/1396008952606/Winnow-Solutions-talking--009.jpg'></a>",
         "marker-color": "#00A5E8",
         "marker-symbol": "",
         "line": "blue"
@@ -87,7 +88,7 @@
         },
         "properties": {
           "title": "Comfy",
-          "description": "Régulation individualisée de la température d'un bâtiment. <br/> <a href='https://gocomfy.com/'><img src=''></a>",
+          "description": "Comfy est un logiciel permettant de régler individuellement la température dans les bâtiments collectifs. Le logiciel utilise un protocole standard pour se connecter aux dispositifs de ventilation et de chauffage existants, et permet aux occupants du bâtiment de régler la température grâce à leur smartphone. Comfy mémorise également les préférences de ses utilisateurs et peut ajuster automatiquement la température. <br/> <a href='https://gocomfy.com/'><img src=''></a>",
           "marker-color": "#ED1A3D",
           "marker-size": "medium",
           "marker-symbol": "",
@@ -102,7 +103,7 @@
         },
         "properties": {
           "title": "Able",
-          "description": "Service de crédit semi-participatif. <br/> <a href='https://www.ablelending.com/'><img src=''></a>",
+          "description": "Able propose des micro-crédit fondés sur les réseaux sociaux et l'esprit communautaire. L'offre cible les petits commerçants, pour obtenir un crédit, ces derniers doivent prouver que leur réseau (clients, amis) soutien leur projet et qu'un quart du montant pourra être apporté par leur proches. Ai ces conditions sont remplient, l'organisme offre les 75% restant à un taux intéressant. <br/> <a href='https://www.ablelending.com/'><img src='http://cartographie.theodorefaure.fr/img/ablelending.png'></a>",
           "marker-color": "#FFCF19",
           "marker-size": "medium",
           "marker-symbol": "",
@@ -117,7 +118,7 @@
         },
         "properties": {
           "title": "ZeroCycle",
-          "description": "Inciter à réduire ses déchets par la comparaison avec son voisinage. <br/> <a href='http://www.zerocycle.co/'><img src=''></a>",
+          "description": "Zerocycle incite à réduire les déchets par la comparaison avec son voisinage. Le service collecte et analyse les données sur les déchets de chaque quartier d'une ville, ces informations sont ensuite compilées dans un rapport pouvant être remis aux habitants de la ville. Ces derniers, en visualisant les quantités jetés en comparaison avec leur voisins, sont incité à réduire leur déchets et recycler plus. <br/> <a href='http://www.zerocycle.co/'><img src=''></a>",
           "marker-color": "#544192",
           "marker-size": "medium",
           "marker-symbol": "",
@@ -132,7 +133,7 @@
         },
         "properties": {
           "title": "PowerFoule",
-          "description": "Regroupement d'acheteurs d'énergie. <br/> <a href='http://www.powerfoule.fr/'><img src=''></a>",
+          "description": "Le service regroupe des particuliers et entreprises en vue de faire des économies sur les énergies (gaz & électricité). Au travers d'une plateforme web, les particuliers comme les entreprises font part de leur intérêt pour une offre d'électricité. Le regroupement de ces potentiels acheteurs permet au site de négocier auprès des fournisseurs d'électricité pour obtenir des prix plus bas. <br/> <a href='http://www.powerfoule.fr/'><img src='http://cartographie.theodorefaure.fr/img/powerfoule.png'></a>",
           "marker-color": "#00A5E8",
           "marker-size": "medium",
           "marker-symbol": "",
@@ -147,7 +148,7 @@
         },
         "properties": {
           "title": "Dabbawallah",
-          "description": "Livraison de boites à repas. Ce systeme logistique complexe et populaire, typique de la région de Mumbai, repose sur la fiabilité des Dabawallah (livreurs de repas). Ces livreurs de confiance sont capables de livrer 175 000 repas par jour et d'accéder à n'importe quelle destination avec une grande précision. <br/> <a href=''><img src='http://www.fondation-langlois.org/media/projets/1648-5-2003/carting.jpg'></a>",
+          "description": "Livraison de boites à repas. Ce systeme logistique complexe et populaire, typique de la région de Mumbai, repose sur la fiabilité des Dabawallah (livreurs de repas). Ces livreurs de confiance sont capables de livrer 175 000 repas par jour et d'accéder à n'importe quelle destination avec une grande précision. <br/> <a href=''><img src='http://cartographie.theodorefaure.fr/img/dabbawala.jpg'></a>",
           "marker-color": "#00A5E8",
           "marker-size": "medium",
           "marker-symbol": "",
@@ -188,26 +189,11 @@
         "type": "Feature",
         "geometry": {
           "type": "Point",
-          "coordinates": [2.3980,47.0780]
-        },
-        "properties": {
-          "title": "SCIC Berry Energie Bocage",
-          "description": "Société Coopérative d’intérêt collectif qui rapproche les producteurs de plaquettes des collectivités dotées de chaudières et réseau de chaleur : fournisseur d'énergie (chaleur) en concurrence directe avec des distributeurs de fioul ou gaz.  <br/> <a href=''></a>",
-          "marker-color": "#EC008C",
-          "marker-size": "medium",
-          "marker-symbol": "",
-          "line": "pink"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [5.4528,51.4486]
+          "coordinates": [5.1292,52.3827]
         },
         "properties": {
           "title": "CityTouch",
-          "description": "Philips propose aux collectivités une offre 'éclairage intelligent'. Chaque point lumineux de la villes devient interconecté et pilotable à distance. Ainsi la gestion à distance de ces infrastructures permets d'améliorer la sécurité, de diminuer les consommations de facilité les opération de maintenances. <br/> <a href='http://www.lighting.philips.com/main/systems/packaged-offerings/public-spaces/city-touch'></a>",
+          "description": "Philips propose aux collectivités une offre 'éclairage intelligent'. Chaque point lumineux de la villes devient interconecté et pilotable à distance. Ainsi la gestion à distance de ces infrastructures permets d'améliorer la sécurité, de diminuer les consommations de facilité les opération de maintenances. <br/> <a href='http://www.lighting.philips.com/main/systems/packaged-offerings/public-spaces/city-touch'><img src='http://www.lighting.philips.nl/pwc_li/nl_nl/application_areas/images/Screenshot-CityTouch.jpg'</a>",
           "marker-color": "#00A5E8",
           "marker-size": "medium",
           "marker-symbol": "",
@@ -222,7 +208,7 @@
         },
         "properties": {
           "title": "Qarnot Computing",
-          "description": "Traiter des informations à domicile pour se chauffer gratuitement.  <br/> <a href='http://www.qarnot-computing.com/technology'><img src='http://www.quelleenergie.fr/magazine/wp-content/uploads/2015/02/qarnot-computing.jpg'></a>",
+          "description": "Le principe : utiliser la chaleur dégagée par des processeurs informatiques installés dans le radiateur. Vendue à des entreprises, des particuliers, des centres de recherche pour traiter des données ou faire du calcul intensif, leur utilisation suffit largement à couvrir la dépense en électricité. Avantage pour l’habitant du logement ainsi chauffé : c’est gratuit. Et pour les clients des serveurs informatiques, la garantie de tarifs bien inférieurs à ceux des coûteux data centers. Mais l’atout est aussi écologique car le système gaspille cinq fois moins d’énergie. 25 radiateurs chauffent l’école d’ingénieurs Télécom Paris Tech et quelques 300 Q.rad vont être installés dans la centaine de logements d’un HLM du XVe arrondissement parisien. <br/> <a href='http://www.qarnot-computing.com/technology'><img src='http://www.quelleenergie.fr/magazine/wp-content/uploads/2015/02/qarnot-computing.jpg'></a>",
           "marker-color": "#ED1A3D",
           "marker-size": "medium",
           "marker-symbol": "",
@@ -254,7 +240,7 @@
         },
         "properties": {
           "title": "Court-circuit",
-          "description": "Ressourcerie couplée à une déchèterie : d’une part il permet d’optimiser le taux de réutilisation et de diminuer d’autant la part de déchets à traiter. D’autre part, la service qu’offre la ressourcerie devient d’autant plus lisible et s’intègre dans un processus plus global de traitement des déchets.  <br/> <a href='https://courtcircuitfelletin.wordpress.com/2015/01/15/visite-de-la-ressourcerie-dechetterie-de-cusset/'><img src=''></a>",
+          "description": "Une ressourcerie est une structure qui collecte des objets considérés comme déchets pour les valoriser en les revendant en boutique. Elle a un grand rôle de sensibilisation à l'environnement. Cette association ressourcerie/déchèterie permet d’optimiser le taux de réutilisation et de diminuer d’autant la part de déchets à traiter. D’autre part, la service qu’offre la ressourcerie devient d’autant plus lisible et s’intègre dans un processus plus global de traitement des déchets. C'est une traduction concrète du principe de l'économie circulaire. <br/> <a href='https://courtcircuitfelletin.wordpress.com/2015/01/15/visite-de-la-ressourcerie-dechetterie-de-cusset/'><img src='https://courtcircuitfelletin.files.wordpress.com/2015/01/rta__6810.jpg'></a>",
           "marker-color": "#ED1A3D",
           "marker-size": "medium",
           "marker-symbol": "",
@@ -270,7 +256,7 @@
         },
         "properties": {
           "title": "Babelthèque",
-          "description": "Babelthèque permet aux bibliothèques d’enrichir leurs OPAC et leurs sites Internet en important le contenu produit par les membres de la communauté de lecteurs Babelio.com : critiques, citations, nuages d’étiquettes etc.  <br/> <a href='http://www.babeltheque.com/'><img src='http://www.indexpresse.fr/wp-content/uploads/2014/01/logo-babeltheque21.png'></a>",
+          "description": "Babelio est un réseau social de lecteurs : grâce à l'outil web chacun peut cataloguer ses livres personnels, mais aussi échanger, se conseiller, trouver des ressources, etc. Quelques bibliothèque (notamment des petites bibliothèque sans moyens d'informatisation de leurs fonds) se sont crées leur compte sur Babelio, mais à Toulouse, Babelio a rapproché le réseau social de la médiathèque grâce à Babelthèque : Babelthèque permet aux bibliothèques d’enrichir leurs OPAC et leurs sites Internet en important le contenu produit par les membres de la communauté de lecteurs Babelio.com : critiques, citations, nuages d’étiquettes etc..Babelthèque permet également aux usagers de la bibliothèque de saisir des critiques et citations dans l’OPAC, qui sont partagées avec l’ensemble des bibliothèques partenaires. <br/> <a href='http://www.babeltheque.com/'><img src='http://www.indexpresse.fr/wp-content/uploads/2014/01/logo-babeltheque21.png'></a>",
           "marker-color": "#EC008C",
           "marker-size": "medium",
           "marker-symbol": "",
@@ -285,7 +271,7 @@
         },
         "properties": {
           "title": "Lyonnaise des eaux",
-          "description": "Un portail web de gestion de la consommation d’eau se distinguant par la simplicité de l'expérience proposée à l'utilisateur. Pas de différenciation en fonction de la typologie de client, que ce soit particulier, collectivité ou entreprises. Un contact avec un conseiller peut se faire à tout moment par chat en ligne ou par téléphone, dans ce cas, deux numéros : pour les urgences ou demandes usuelles. <br/> <a href='http://www.babeltheque.com/'><img src='./img/lyonnaisedeseaux.png'></a>",
+          "description": "Un portail web de gestion de la consommation d’eau se distinguant par la simplicité de l'expérience proposée à l'utilisateur. Pas de différenciation en fonction de la typologie de client, que ce soit particulier, collectivité ou entreprises. Un contact avec un conseiller peut se faire à tout moment par chat en ligne ou par téléphone, dans ce cas, deux numéros : pour les urgences ou demandes usuelles. <br/> <a href='https://www.lyonnaise-des-eaux.fr/'><img src='http://cartographie.theodorefaure.fr/img/lyonnaisedeseaux.png'></a>",
           "marker-color": "#005FAE",
           "marker-size": "medium",
           "marker-symbol": "",
@@ -296,11 +282,11 @@
         "type": "Feature",
         "geometry": {
           "type": "Point",
-          "coordinates": [2.1191, 48.8039]
+          "coordinates": [4.3688, 50.8434]
         },
         "properties": {
-          "title": "Dans ma rue",
-          "description": "Application smartphone a destination des citoyens qui géolocalise et permet de faire du déclaratifs sur des incidents de voirie. <br/> <a href='https://teleservices.paris.fr/sira/jsp/site/Portal.jsp?page=formengine&form=signalement'><img src='http://www.paris.fr/viewmultimediadocument?multimediadocument-id=132223&role=2'></a>",
+          "title": "Fixmystreet/Dans ma rue",
+          "description": "Fix My Street est une initiative de la Région de Bruxelles-Capitale, en collaboration avec les communes et instances participantes. Les 19 communes de Bruxelles participent. C'est une plateforme internet et mobile mise à la disposition du citoyen et de l’administration pour signaler des incidents dans l’espace public. Depuis un smartphone, il suffit de localiser l’incident, prendre les photos et transmettre l’incident aux gestionnaires. Le principe a été repris par la ville de Paris, qui propose depuis peu un service similaire : «dans ma rue». <br/> <a href='https://teleservices.paris.fr/sira/jsp/site/Portal.jsp?page=formengine&form=signalement'><img src='http://e-shootershill.co.uk/wp-content/uploads/2013/04/FixMyStreet-Snip.jpg'></a>",
           "marker-color": "#00A5E8",
           "marker-size": "medium",
           "marker-symbol": "",
@@ -315,7 +301,7 @@
         },
         "properties": {
           "title": "Refact",
-          "description": "La facture télephonique réinventée. <br/> <a href='http://userstudio.fr/projects/refact/'><img src='http://userstudio.fr/projects/refact/sp-content/projects/24/picsfr_534e8a0ddbee0_4.jpg'></a>",
+          "description": "Refact propose de simplifier les factures télephoniques en choisissant d'afficher des informations ayant du sens. La longue liste des numéros appelés fait désormais place à une représentation graphique claire, permettant de consulter les numéros les plus appelés, la durées moyenne des appels et les dépassements de forfait en un coup d'œil. Outre son aspect pratique pour le client, le logiciel permet à l'entreprise de diminuer le nombre de plaintes liées au «Bill shock» : le fait de contester le montant de sa facture ! <br/> <a href='http://userstudio.fr/projects/refact/'><img src='http://userstudio.fr/projects/refact/sp-content/projects/24/picsfr_534e8a0ddbee0_4.jpg'></a>",
           "marker-color": "#00A5E8",
           "marker-size": "medium",
           "marker-symbol": "",
@@ -330,7 +316,7 @@
         },
         "properties": {
           "title": "Paris Connect",
-          "description": "Service de la mairie de Paris à destination des habitants. Messagerie ouverte, plateforme de discusion entre les habitants et la collectivité. Conservation de tout l'historique de discussion. <br/> <a href='https://connect.paris.fr/messagerie'><img src='https://connect.paris.fr/application/views/ressources/pics/outil2.png'></a>",
+          "description": "La ville de Paris offre à ses habitants un espace d'expression sur tous les sujets la concernant. Le site offre une messagerie ouverte et personnalisée, devenant ainsi une plateforme de discusion entre les habitants et la collectivité, mais également de mémoire puisque l'historique des conversations est enregisté. Conservation de tout l'historique de discussion. <br/> <a href='https://connect.paris.fr/messagerie'><img src='https://connect.paris.fr/application/views/ressources/pics/outil2.png'></a>",
           "marker-color": "#005FAE",
           "marker-size": "medium",
           "marker-symbol": "",
@@ -341,26 +327,11 @@
         "type": "Feature",
         "geometry": {
           "type": "Point",
-          "coordinates": [3.0918,48.8096]
-        },
-        "properties": {
-          "title": "Les encombrants",
-          "description": "Service de la mairie de Paris à destination des habitants. Messagerie ouverte, plateforme de discusion entre les habitants et la collectivité. Conservation de tout l'historique de discussion. <br/> <a href=' https://teleservices.paris.fr/sira/jsp/site/Portal.jsp?page=formengine&form=ramen'><img src='img/encombrants.png'></a>",
-          "marker-color": "#EC008C",
-          "marker-size": "medium",
-          "marker-symbol": "",
-          "line": "pink"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
           "coordinates": [3.0468,50.6311]
         },
         "properties": {
           "title": "La machine du voisin",
-          "description": "Site de location de machines à laver entre particuliers. <br/> <a href='http://www.lamachineduvoisin.fr/fr'><img src='http://img.argentdubeurre.com/content/actualite/1787/la-machine-du-voisin.jpg'></a>",
+          "description": "La Machine Du Voisin est un site Internet, un lieu de rencontre qui regroupe d'un coté les propriétaires de machines à laver - appelés Voisins-, et de l'autre les personnes qui en recherchent une pour faire leur lessive, les Sans-Machine-Fixes. On met en relation les uns et les autres suivant leur proximité, donc plus la communauté s'agrandit, plus il est facile de trouver une machine près de chez soi. <br/> <a href='http://www.lamachineduvoisin.fr/fr'><img src='http://img.argentdubeurre.com/content/actualite/1787/la-machine-du-voisin.jpg'></a>",
           "marker-color": "#EC008C",
           "marker-size": "medium",
           "marker-symbol": "",
@@ -375,7 +346,7 @@
         },
         "properties": {
           "title": "Jun, la commune espagnole gérée sur twitter",
-          "description": "Pour gagner en réactivité dans la gestion de sa ville, le maire de Jun a décidé d'utiliser twitter pour l'ensemble des services administratifs (police y compris). Les citoyens bénéficient donc d'un moyen immédiat et ouvert à la discussion afin de reporter des problèmes ou proposer des amélioration pour leur ville.<br/> <a href='http://rue89.nouvelobs.com/2015/04/21/jun-petite-ville-espagnole-geree-twitter-258783'><img src='https://d262ilb51hltx0.cloudfront.net/max/800/1*2zgHCKEXgd9aHnnvsupbZw.jpeg'></a>",
+          "description": "Jun est une ville ultra-connectée depuis des années. En 1999, elle devient la première ville à déclarer l’accès Internet « droit universel des citoyens ». Depuis 2011, Jun expérimente une autre manière d’échanger avec ses citoyens : le maire a invité ses 3 500 administrés a se créer un compte Twitter et à le faire vérifier à la mairie. Exemple avec cet échange : un étudiant signale au maire un lampadaire cassé dans une rue, le maire le remercie et en informe l’un de ses employés, qui répare le lampadaire en question, photo à l’appui. <br/> <a href='http://rue89.nouvelobs.com/2015/04/21/jun-petite-ville-espagnole-geree-twitter-258783'><img src='https://d262ilb51hltx0.cloudfront.net/max/800/1*2zgHCKEXgd9aHnnvsupbZw.jpeg'></a>",
           "marker-color": "#ED1A3D",
           "marker-size": "medium",
           "marker-symbol": "",
@@ -405,7 +376,7 @@
         },
         "properties": {
           "title": "Linke",
-          "description": "Linke est une application gratuite qui offre une vue globale sur l’ensemble de ses contrats de fourniture d'énergie et d'eaux. Le particulier renseigne les informations concernant les caractéristiques de son habitation et de ses équipements. Linke intègre et fait la synthèse des contrats de fournitures (EDF, GDF, direct énergie, Véolia, etc) et actualise les tarifs appliqués en temps réel.<br/> <a href='http://rue89.nouvelobs.com/2015/04/21/jun-petite-ville-espagnole-geree-twitter-258783'><img src='https://www.linke.fr/wp-content/uploads/2015/04/app_08.png'></a>",
+          "description": "Linke est une application gratuite qui offre une vue globale sur l’ensemble de ses contrats de fourniture d'énergie et d'eaux. Le particulier renseigne les informations concernant les caractéristiques de son habitation et de ses équipements. Linke intègre et fait la synthèse des contrats de fournitures (EDF, GDF, direct énergie, Véolia, etc) et actualise les tarifs appliqués en temps réel.<br/> <a href='http://rue89.nouvelobs.com/2015/04/21/jun-petite-ville-espagnole-geree-twitter-258783'><img src='http://cartographie.theodorefaure.fr/img/linke.png'></a>",
           "marker-color": "#ED1A3D",
           "marker-size": "medium",
           "marker-symbol": "",
@@ -435,7 +406,7 @@
         },
         "properties": {
           "title": "Application TCL SYTRAL",
-          "description": "Application destinée à faciliter l'utilisation des services de transport de Lyon <br/> <a href='https://teleservices.paris.fr/sira/jsp/site/Portal.jsp?page=formengine&form=signalement'><img src='http://www.tuba-lyon.com/wp-content/uploads/2014/09/appli_tcl_thumb.jpg'></a>",
+          "description": "AUne application destinée à faciliter l'utilisation des services de transport de Lyon. Le logiciel regroupe l'ensemble des moyens de transport en une seule interface et permet d'avoir toutes les infos en temps réel : horaires de prochains passages, calcul d’itinéraires, disponibilité des équipements, plans du réseau, schémas de lignes, disponibilité des Vélo’v (vélos en libre service), horaires de départs/arrivées des gares SNCF. <br/> <a href='https://teleservices.paris.fr/sira/jsp/site/Portal.jsp?page=formengine&form=signalement'><img src='http://www.tuba-lyon.com/wp-content/uploads/2014/09/appli_tcl_thumb.jpg'></a>",
           "marker-color": "#00A5E8",
           "marker-size": "medium",
           "marker-symbol": "",
@@ -450,7 +421,7 @@
         },
         "properties": {
           "title": "Flui.city",
-          "description": "Service de consultation citoyenne à destination ds élus. Aide à la décision. <br/> <a href='http://www.flui.city/'><img src='http://i.ytimg.com/vi/MxribCVXRuI/maxresdefault.jpg'></a>",
+          "description": "Fluicity vise à renforcer les liens entre les élus locaux et leurs citoyens en utilisant les technologies de l’information et la segmentation de données. Le service s'adresse aux élus et leur permet de visualiser, grâces à des données receuillies auprès des habitants, les sujets importants à traiter dans leurs communes. <br/> <a href='http://www.flui.city/'><img src='http://i.ytimg.com/vi/MxribCVXRuI/maxresdefault.jpg'></a>",
           "marker-color": "#00A5E8",
           "marker-size": "medium",
           "marker-symbol": "",
