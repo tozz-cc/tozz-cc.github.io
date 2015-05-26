@@ -88,7 +88,7 @@
         },
         "properties": {
           "title": "Comfy",
-          "description": "Comfy est un logiciel permettant de régler individuellement la température dans les bâtiments collectifs. Le logiciel utilise un protocole standard pour se connecter aux dispositifs de ventilation et de chauffage existants, et permet aux occupants du bâtiment de régler la température grâce à leur smartphone. Comfy mémorise également les préférences de ses utilisateurs et peut ajuster automatiquement la température. <br/> <a href='https://gocomfy.com/'><img src=''></a>",
+          "description": "Comfy est un logiciel permettant de régler individuellement la température dans les bâtiments collectifs. Le logiciel utilise un protocole standard pour se connecter aux dispositifs de ventilation et de chauffage existants, et permet aux occupants du bâtiment de régler la température grâce à leur smartphone. Comfy mémorise également les préférences de ses utilisateurs et peut ajuster automatiquement la température. <br/> <a href='https://gocomfy.com/'><img src='https://gocomfy.com/static/landing_page/img/home/comfy_request_air.jpg'></a>",
           "marker-color": "#ED1A3D",
           "marker-size": "medium",
           "marker-symbol": "",
